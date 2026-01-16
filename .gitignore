@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.uv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific - Cache and stub files
+*.pkl
+stubs/
+*.cache
+
+# Model files
+*.pt
+*.weights
+*.onnx
+yolov8*.pt
+yolov5*.pt
+
+# Training data and outputs
+football-players-detection-*/
+soccer_tracker/train*/
+runs/
+wandb/
+
+# Video files (keep directory structure)
+input_videos/*
+!input_videos/.gitkeep
+output_videos/*
+!output_videos/.gitkeep
+
+# Model directory (keep structure and README)
+model/*
+!model/.gitkeep
+!model/README.md
+
+# Screenshots (keep only examples)
+*.png
+*.jpg
+*.jpeg
+!input_video_screenshot.png
+!output_video_screenshot.png
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+check_gpu.py

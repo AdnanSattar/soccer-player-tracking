@@ -1,0 +1,3 @@
+# This directory stores trained YOLO model files
+# Model files (*.pt) are excluded via .gitignore
+# Place your trained model here as model/best.pt

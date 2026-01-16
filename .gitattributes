@@ -1,0 +1,28 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Markdown files
+*.md text eol=lf
+
+# Configuration files
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+
+# Exclude binary files
+*.pt binary
+*.pkl binary
+*.jpg binary
+*.png binary
+*.jpeg binary
+*.mp4 binary
+*.avi binary
+*.mov binary
