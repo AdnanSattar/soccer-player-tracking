@@ -8,15 +8,15 @@ Real-time soccer player tracking system using **YOLOv8** and **ByteTrack** algor
 
 ## Features
 
-- * Real-time Tracking**: Multi-object tracking of players, referees, and ball
-- ** Team Assignment**: Automatic team identification based on jersey colors
-- ** Ball Possession**: Tracks which player has the ball
-- ** Analytics**: Calculates player speed and distance traveled
-- ** Field Transformation**: Converts camera view to top-down field coordinates
-- ** Camera Compensation**: Accounts for camera movement in tracking
-- ** Field Filtering**: Excludes audience members for better accuracy
+- Real-time Tracking**: Multi-object tracking of players, referees, and ball
+- Team Assignment**: Automatic team identification based on jersey colors
+- Ball Possession**: Tracks which player has the ball
+- Analytics**: Calculates player speed and distance traveled
+- Field Transformation**: Converts camera view to top-down field coordinates
+- Camera Compensation**: Accounts for camera movement in tracking
+- Field Filtering**: Excludes audience members for better accuracy
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Installation](#installation)
 - [Quick Start](#quick-start)
